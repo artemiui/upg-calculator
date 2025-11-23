@@ -1,8 +1,11 @@
 # UPG Calculator
 
+<img width="1049" height="513" alt="image" src="https://github.com/user-attachments/assets/a71180f5-bece-4bfd-bab8-7e14ffe10e08" />
+
+
 A lightweight, distributable grade calculator. Create subjects, add components with adjustable weights, input multiple task grades, and customize percent-to-grade conversion (1.0–5.0) per subject. Everything is editable and auto-saves to your browser.
 
-## Features
+## Some Features
 - Subjects with rename and delete
 - Components per subject with adjustable weights
 - Multiple entries per component (score and max) with preserved history
@@ -19,7 +22,7 @@ Open `index.html` in a browser, or serve the folder:
 
 Then open `http://localhost:8000/`.
 
-## Data Model
+## Data Model  [EXPORTING/IMPORTING]
 - Subject: `{ id, name, components: Component[], conversion: Threshold[] }`
 - Component: `{ id, name, weight, entries: Entry[] }`
 - Entry: `{ id, label, score, max }`
