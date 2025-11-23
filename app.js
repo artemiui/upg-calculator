@@ -138,7 +138,7 @@
 
     if (items.length === 0) {
       el.gwaValue.textContent = '–';
-      if (el.gwaAvgLabel) el.gwaAvgLabel.textContent = 'Avg';
+      if (el.gwaAvgLabel) el.gwaAvgLabel.textContent = 'LH';
       el.gwaChart.innerHTML = '';
       if (el.gwaLowest) el.gwaLowest.textContent = '–';
       if (el.gwaHighest) el.gwaHighest.textContent = '–';
